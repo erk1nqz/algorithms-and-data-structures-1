@@ -10,6 +10,7 @@ public class second {
         }
         System.out.println(findAverage(n, arr));
     }
+
     public static double findAverage(int n, int[] arr) {
         double sum = arr[0];
         for (int i = 1; i < n; i++) {
