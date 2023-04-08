@@ -10,4 +10,4 @@ public class eighth {
         if (text.length() == 1) return Character.isDigit(text.charAt(0));
         else return Character.isDigit(text.charAt(0)) && isAllDigits(text.substring(1));
     }
-}0
+}
