@@ -2,10 +2,10 @@
 In this file description the solution of all tasks in Laboratory 1
 
 ## Main.java file [src](src/Main.java)
-** This is the starting class that connects the CLI to the modules of the tasks being solved.**
-** All the functions that were used to solve problems will be described below.**
+**This is the starting class that connects the CLI to the modules of the tasks being solved.**
+**All the functions that were used to solve problems will be described below.**
 
-## :heavy_plus_sign: Task 1 [file src](src/task1.java)
+## :heavy_plus_sign: Task 1 [file src](src/first.java)
 **Description**: *Return the minimum value of an array*
 
 **Explanation**: 
@@ -22,5 +22,24 @@ public static int findMin(int n, int[] arr) {
             }
         }
         return minNum; // returning minimum value
+    }
+```
+
+
+
+## :heavy_plus_sign: Task 2 [module src](src/second.java)
+**Description**: *Return average value of array*
+
+**Explanation**: Declaring a new value `double sum` and starting with first index because of minNum value is started from 0.  Loop adding each element of array and divide the sum by the number of array elements.
+
+
+**Solution**:
+```java
+public static double findAverage(int n, int[] arr) {
+        double sum = arr[0]; // declaring new value
+        for (int i = 1; i < n; i++) { // starting with 1st index because of minNum value is started from 0
+            sum += arr[i]; // adding each element of array to value sum
+        }
+        return sum / n; // returning average by dividing sum to n
     }
 ```
