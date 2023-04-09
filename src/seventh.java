@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class seventh {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // input the length of array
         int[] arr = new int[n]; // declaring a new array of size n

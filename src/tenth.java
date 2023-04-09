@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class tenth {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(); // input first number
         int b = sc.nextInt(); // input second number

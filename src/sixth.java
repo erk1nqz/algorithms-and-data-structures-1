@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class sixth {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(); // input the number
         int n = sc.nextInt(); // input a power of number

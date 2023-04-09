@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class third {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // input the number
         System.out.println(isPrime(n));

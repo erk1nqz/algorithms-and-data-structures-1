@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ninth {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // input first argument
         int k = sc.nextInt(); // input second argument

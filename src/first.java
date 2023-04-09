@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class first {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // input a length of array
         int[] arr = new int[n]; // declaration an array

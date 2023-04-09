@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class eighth {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         String text = sc.nextLine(); // input string
         System.out.println(isAllDigits(text));
