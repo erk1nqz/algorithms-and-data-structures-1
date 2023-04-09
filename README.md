@@ -27,7 +27,7 @@ public static int findMin(int n, int[] arr) {
 
 
 
-## :heavy_plus_sign: Task 2 [module src](src/second.java)
+## :heavy_plus_sign: Task 2 [file src](src/second.java)
 **Description**: *Return average value of array*
 
 **Explanation**: Declaring a new value `double sum` and starting with first index because of minNum value is started from 0.  Loop adding each element of array and divide the sum by the number of array elements.
@@ -43,3 +43,20 @@ public static double findAverage(int n, int[] arr) {
         return sum / n; // returning average by dividing sum to n
     }
 ```
+
+
+## :heavy_plus_sign: Task 3 [file src](src/third.java)
+**Description**: *Check a number for a prime*
+
+**Explanation**: Function `isPrime` check a number for a prime. Loop started from number 2. If number have any divisors the function return `false`, otherwise `true`.
+
+**Solution**:
+```java
+ public static boolean isPrime(int n) {
+        for (int i = 2; i < n; i++) { // choosing from 2 to n-1
+            if (n % i == 0) { // if the number have any divisors
+                return false;
+            }
+        }
+        return true;
+    }
